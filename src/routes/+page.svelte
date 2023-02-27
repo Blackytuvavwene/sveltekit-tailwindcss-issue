@@ -5,7 +5,7 @@
     // import Intro from "$lib/app-components/home-components/intro/intro.svelte";
     // import { persistHomeDataStore } from "$lib/app-components/home-components/helpers/home.stores";
     // import type { HomeModel } from "$lib/app-components/home-components/helpers/home.firestore.helpers";
-        import type { PageServerData } from "./$types";
+        // import type { PageServerData } from "./$types";
 
     // let homeModel:HomeModel;
 

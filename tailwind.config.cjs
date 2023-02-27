@@ -1,7 +1,9 @@
+const path = require('path');
+const tailwindcss = require('tailwindcss');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-	content: ['./src/**/*.{html,js,svelte,ts}',
-'./src/**/**/*.svelte',],
+	content: ['./src/**/*{.html,.js,.svelte,.ts}'],
 	theme: {
 		extend: {
 			  fontFamily:{
@@ -113,5 +115,6 @@ module.exports = {
 	},
 	plugins: [
 		// require('flowbite/plugin')
+		// tailwindcss(path.resolve(__dirname, './tailwind.config.cjs'))
 	]
 };
